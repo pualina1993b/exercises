@@ -9,11 +9,11 @@ if temp > 19 and is_warm:
 else:
     print("So it's cold")
 
-def greet_user():
-    print("Hi!!!")
+def greet_user(first_name, last_name):
+    print(f'Hi!!! {first_name} {last_name} !')
 
 
 #2 line breaks after function
 print("Start")
-greet_user()
+greet_user(input('type your first name  '), input('type your last name  '))
 print("Finish")
