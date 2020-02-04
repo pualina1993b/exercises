@@ -21,20 +21,22 @@ x, y, z = elementy
 print(f'trzecie miejsce to {z}')
 
 # dictionaries
-liczby = {
-    "1": "jeden",
-    "2": "dwa",
-    "3": "trzy",
-    "4": "cztery"
-}
+# liczby = {
+#     "1": "jeden",
+#     "2": "dwa",
+#     "3": "trzy",
+#     "4": "cztery"
+# }
+#
+# phone = input("phone: ")
+# output = " "
+#
+# for ch in phone:
+#     output += liczby.get(ch, "!") + " "
+#
+# print(output)
 
-phone = input("phone: ")
-output = " "
 
-for ch in phone:
-    output += liczby.get(ch, "!") + " "
-
-print(output)
 # warm = input("is it warm? type yes/no  ")
 # # converting string to boolean
 # is_warm = "yes" in warm
@@ -53,3 +55,9 @@ print(output)
 
 name = countDistance2d(0, 0, 2, 2)
 print(name)
+
+
+message = input(">")
+words = message.split(" ") #tworzy listę wyrazów rozdzielonych spacją
+print(words)
+
